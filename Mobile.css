@@ -1,0 +1,221 @@
+@media screen and (max-width: 500px) {
+    html,
+    body {
+      overflow-x: hidden;
+    }
+    body,
+    main,
+    section {
+      justify-content: space-around;
+    }
+    section {
+      margin-left: 5%;
+    }
+  
+    /*header search and filters */
+  
+    #logo {
+      margin-left: 20px;
+    }
+    #anchors {
+      margin-right: 0px;
+      padding: 0px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      max-width: 759px;
+    }
+    #anchors a {
+      margin-left: 0px;
+    }
+    #nav {
+      max-width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+      display: flex;
+    }
+    #navLink_activity {
+      width: 50%;
+      padding: 30px 40% 30px 10%;
+      border-width: 0px 0px 3px 0px;
+      border-color: #f2f2f2;
+      border-style: solid;
+    }
+    #navLink_activity:hover {
+      border-color: #0065fc;
+    }
+    #navLink_lodging {
+      width: 50%;
+      padding: 30px 10% 30px 40%;
+      border-width: 0px 0px 3px 0px;
+      border-style: solid;
+      border-color: #f2f2f2;
+    }
+    #navLink_lodging:hover {
+      border-color: #0065fc;
+    }
+    #navLink_register {
+      margin-left: 80%;
+    }
+    #searchTab {
+      padding: 0px 20px;
+    }
+    .fas.fa-search {
+      color: white;
+      margin-top: -25px;
+      margin-left: -30px;
+      width: 20px;
+      height: 20px;
+      border-radius: 15px;
+      background-color: #0065fc;
+    }
+    #desktopBtn {
+      display: none;
+    }
+    #mobileBtn {
+      display: flex;
+    }
+    #filtersTab {
+      padding-left: 20px;
+    }
+    #filtersTab div {
+      margin-right: 30%;
+    }
+    .filtersName {
+      min-width: max-content;
+      width: 150px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+  
+    /* Lodging tab*/
+  
+    #lodgingTopTabContainer {
+      border-radius: 15px 15px 15px 15px;
+      background-color: #f2f2f2;
+      max-width: 649px;
+      padding: 20px;
+      line-height: 100%;
+    }
+    .lodgingTopContainer {
+      width: 335px;
+      height: 145px;
+      background-color: white;
+      border-radius: 20px 20px 20px 20px;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+    #lodgingListTabContainer {
+      border-radius: 15px 15px 15px 15px;
+      background-color: white;
+      max-width: 649px;
+      padding: 20px;
+      margin-bottom: -40px;
+    }
+    .lodgingListContainer {
+      padding: 5px;
+      width: 335px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 20px 20px 20px 20px;
+      margin: 0px;
+      display: block;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .lodgingListContainerImg {
+      padding: 5px;
+      width: 325px;
+      height: 120px;
+      overflow: hidden;
+      border-radius: 20px 20px 0px 0px;
+      margin: auto;
+      display: block;
+      object-fit: cover;
+    }
+    .lodgingCaptionList {
+      line-height: 10%;
+    }
+  
+  
+    /* Activity Tab*/
+  
+    #activityTab {
+      padding-left: 20px;
+      margin-bottom: 50px;
+    }
+  
+    #activityTabContainerLeft,
+    #activityTabContainerRight {
+      min-width: 335px;
+    }
+    #activityTabContainerLeft a {
+      margin: 5px 0px 0px 0px;
+    }
+    #activityTabContainerRight a {
+      margin: 5px 0px 0px 0px;
+    }
+    .activitySmallContainer {
+      width: 335px;
+      height: 175px;
+      overflow: hidden;
+      border-radius: 15px 15px 15px 15px;
+      object-fit: cover;
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+    }
+    .activitySmallContainerImg {
+      width: 325px;
+      height: 115px;
+      border-radius: 15px 15px 0px 0px;
+      margin: 5px;
+      object-fit: cover;
+    }
+    .activityMediumContainer {
+      width: 335px;
+      height: 175px;
+      overflow: hidden;
+      border-radius: 15px 15px 15px 15px;
+      object-fit: cover;
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+    }
+    .activityMediumContainerImg {
+      margin: 5px;
+      width: 325px;
+      height: 115px;
+      border-radius: 15px 15px 0px 0px;
+      object-fit: cover;
+    }
+    .activityLargeContainer {
+      width: 335px;
+      height: 175px;
+      overflow: hidden;
+      border-radius: 15px 15px 15px 15px;
+      object-fit: cover;
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+    }
+    .activityLargeContainerImg {
+      margin: 5px;
+      width: 325px;
+      height: 115px;
+      border-radius: 15px 15px 0px 0px;
+      object-fit: cover;
+    }
+  
+  
+    /* Footer */
+    
+    footer {
+      margin-left: -2%;
+      text-align: left;
+      justify-content: left;
+      margin: 0px;
+      max-width: 680px;
+    }
+    #footer h3 {
+      margin: 20px 0px 0px;
+    }
+  }
+  
