@@ -574,5 +574,5 @@ body {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	  margin-right : 10%;
+	  margin-left : -10%;
   }
